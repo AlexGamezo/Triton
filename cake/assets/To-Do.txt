@@ -1,0 +1,72 @@
+To-Do:
+
+Home Page:
+	- Controller
+		- static page/elements
+	DONE	- Latest Debates
+	DONE	- Latest Polls
+			- Latest Postings (News?)
+			- Top debators
+			- Top Activists
+		- dynamic (add elements to my page)
+
+ADMIN Controls:
+	- All controllers
+		- if not admin, disallow deleting
+		- if not admin and not poster, disallow editting
+		
+User Profile:
+	- Controller
+		- all my activities
+		- watched debates/arguments/postings/comments/polls
+	- View
+		- element: my activities
+		- element: watched items
+
+DEBATES:
+- end time
+	- Model
+		- no updates after end date
+	- Controller
+		- allow to update end date
+		- if after end date, show winning argument
+	- View
+		- show end date, counting down by javascript
+		- if winning argument set, display winning argument
+- locked
+	- Model
+		- if locked, only admins can update
+		- allow for locking/unlocking
+	- Controller
+		- if locked and not admin, all fields locked
+		- allow for locking/unlocking by admins
+	- View
+		- display as locked
+- argument sorting
+	- Controller
+		- allow sorting by newest, by votes DESC, friends only
+	- View
+		- give sorting options (newst, votes, friends only)
+- category
+	- Controller
+		- see all debates in a category
+		
+CATEGORY:
+	- Model
+		- 
+	- Controller
+		- pull all categories I'm part of that are children or have no children
+		
+All postable items:
+- on create
+	- update User's last activity field
+	
+User Profile:
+- display activity
+- tolerance rating (user voted)
+- convincing rating
+-
+
+Debates:
+-	argue the opposite of what you believe
+-	privacy settings (friends only, public debate

@@ -1,0 +1,71 @@
+.block_heading {
+	font-weight:bold;
+	font-size:	18pt;
+	color:		#330000;
+	padding-bottom:15px;
+}
+
+.title {
+	font-weight:bold;
+	font-size:	14pt;
+	color:		#cc0000;
+}
+
+.title a:link {
+	color:	#cc0000;
+	text-decoration: underline;
+}
+.title a:visited {
+	color:	#ee4400;
+	text-decoration: underline;
+}
+.title a:hover {
+	color:	#ee6600;
+}
+
+.author {
+	font-weight:normal;
+	font-style: italic;
+	font-size:	10pt;
+	color:		gray;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+
+.summary {
+	margin-top: 5px;
+	font-weight:normal;
+	font-style: normal;
+	font-size:	12pt;
+	color:		black;
+}
+
+.content {
+	margin-top: 10px;
+	font-weight:normal;
+	font-style: normal;
+	font-size:	12pt;
+	color:		black;
+}
+
+.category_list {
+	font-weight: normal;
+	font-size:10px;
+	color: gray;
+}
+
+.list_block {
+/*	border: solid thin black; */
+	padding: 10px;
+/*	width:	450px; */
+	overflow:hidden;
+}
+
+.item_action_links {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	overflow:hidden;
+}
+.item_action_links a {
+	color: brown;
+}
